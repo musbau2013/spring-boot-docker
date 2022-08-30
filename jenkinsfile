@@ -1,6 +1,6 @@
 pipeline {
     environment { Email = 'cloudsec@gmail.com' }
-    agent { label 'jenkins-server'}
+    agent { label 'linux-commerical'}
     stages {
 
         stage('git clone') {

@@ -5,7 +5,7 @@ pipeline {
 
         stage('git clone') {
             steps {
-                git branch: 'master', credentialsid: 'git-creds', url: 'https://github.com/musbau2013/spring-boot-docker.git'
+                git branch: 'master', credentialsId: 'git-creds', url: 'https://github.com/musbau2013/spring-boot-docker.git'
             }
         }
         stage('Shiftleft Iac Assessment Scan'){
